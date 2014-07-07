@@ -1,0 +1,87 @@
+#custom-search-form {
+    margin:0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#custom-search-form .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#custom-search-form button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.search-query:focus + button {
+    z-index: 3;
+}
+h1.muted {
+    font-size: 28px;
+    line-height: 60px;
+    cursor: pointer;
+    text-align: center;
+}
+h3 {
+    font-size: 14px;
+}
+h1, h2, h3 {
+    line-height: 20px;
+}
+.thumbnail-center {
+    text-align: center;
+}
+.thumbnail-center .caption {
+    text-align: left;
+}
+.thumbnail-center h3 {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    word-wrap:break-word;
+}
+.thumbnail-center p.description {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    height: 44px;
+}
+
+.navbar-fixed-bottom {
+    z-index: 10;
+}
+
+span.item-price {
+    font-weight: 700;
+    line-height: 32px;
+}
+#myCarousel {
+    height: 300px;
+}
+
+.thumbnail .preview {
+    height: 200px;
+    display: block;
+}
+
+.hero-unit {
+    padding: 30px;
+}

@@ -1,0 +1,1 @@
+<a data-toggle="modal" class="btn btn-primary product_order_show" data-id="<?=$arParams['ID']?>" href="#orderModal"><?=GetMessage("AQW_SHOP_ZAKAZATQ")?></a>

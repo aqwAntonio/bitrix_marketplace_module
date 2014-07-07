@@ -1,0 +1,1 @@
+<h1 onclick="window.location='<?=SITE_DIR?>'" class="muted"><?=$arResult['COMPONENT']->getSiteParam('NAME');?></h1>
